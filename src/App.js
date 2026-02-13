@@ -52,18 +52,23 @@ function App() {
         <>
           <h1 style={{ color: '#d7263d', marginBottom: '2rem' }}>{answered ? '' : questions[questionStep]}</h1>
           {!answered && (
-            <div style={{ display: 'flex', gap: '2rem', position: 'relative', minHeight: '100px' }}>
+            <div style={{ display: 'flex', gap: '2rem', position: 'relative', minHeight: '100px', width: '360px', justifyContent: 'flex-start' }}>
               <button
                 style={{
-                  padding: '1rem 2rem',
-                  fontSize: '1.5rem',
+                  height: '52px',
+                  padding: '0 24px',
+                  fontSize: '1.3rem',
                   background: '#d7263d',
                   color: 'white',
                   border: 'none',
-                  borderRadius: '2rem',
+                  borderRadius: '28px',
                   cursor: 'pointer',
                   boxShadow: '0 2px 8px #d7263d33',
                   transition: 'transform 0.2s',
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  lineHeight: '1'
                 }}
                 onClick={handleYes}
               >
@@ -72,18 +77,23 @@ function App() {
               {!noBlasted && noCount < 4 && (
                 <button
                   style={{
-                    padding: '1rem 2rem',
-                    fontSize: '1.5rem',
+                    height: '52px',
+                    padding: '0 24px',
+                    fontSize: '1.3rem',
                     background: '#1b1b1b',
                     color: 'white',
                     border: 'none',
-                    borderRadius: '2rem',
+                    borderRadius: '28px',
                     cursor: 'pointer',
                     boxShadow: '0 2px 8px #1b1b1b33',
                     transition: 'transform 0.2s',
                     position: 'absolute',
                     top: `${noButtonPos.top}px`,
                     left: `${noButtonPos.left}px`,
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    lineHeight: '1'
                   }}
                   onClick={handleNo}
                 >
@@ -109,15 +119,20 @@ function App() {
               <div style={{ marginTop: '2rem', display: 'flex', gap: '2rem', justifyContent: 'center' }}>
                 <button
                   style={{
-                    padding: '1rem 2rem',
-                    fontSize: '1.5rem',
+                    height: '48px',
+                    padding: '0 20px',
+                    fontSize: '1.1rem',
                     background: '#d7263d',
                     color: 'white',
                     border: 'none',
-                    borderRadius: '2rem',
+                    borderRadius: '20px',
                     cursor: 'pointer',
                     boxShadow: '0 2px 8px #d7263d33',
                     transition: 'transform 0.2s',
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    lineHeight: '1'
                   }}
                   onClick={() => setBegState('confirm')}
                 >
@@ -125,15 +140,20 @@ function App() {
                 </button>
                 <button
                   style={{
-                    padding: '1rem 2rem',
-                    fontSize: '1.5rem',
+                    height: '48px',
+                    padding: '0 20px',
+                    fontSize: '1.1rem',
                     background: '#1b1b1b',
                     color: 'white',
                     border: 'none',
-                    borderRadius: '2rem',
+                    borderRadius: '20px',
                     cursor: 'pointer',
                     boxShadow: '0 2px 8px #1b1b1b33',
                     transition: 'transform 0.2s',
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    lineHeight: '1'
                   }}
                   onClick={() => setBegState('iKnew')}
                 >
@@ -148,13 +168,13 @@ function App() {
               <div style={{ fontSize: '1.5rem' }}>So... it's a yes??</div>
               <div style={{ marginTop: '1.5rem', display: 'flex', gap: '1.5rem', justifyContent: 'center' }}>
                 <button
-                  style={{ padding: '0.8rem 1.6rem', background: '#d7263d', color: 'white', border: 'none', borderRadius: '1rem' }}
+                  style={{ height: '44px', padding: '0 18px', background: '#d7263d', color: 'white', border: 'none', borderRadius: '10px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', lineHeight: '1' }}
                   onClick={() => setBegState('final')}
                 >
                   Yes
                 </button>
                 <button
-                  style={{ padding: '0.8rem 1.6rem', background: '#1b1b1b', color: 'white', border: 'none', borderRadius: '1rem' }}
+                  style={{ height: '44px', padding: '0 18px', background: '#1b1b1b', color: 'white', border: 'none', borderRadius: '10px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', lineHeight: '1' }}
                   onClick={() => setBegState('soIsItYes')}
                 >
                   No
@@ -168,13 +188,13 @@ function App() {
               <div style={{ fontSize: '1.5rem' }}>So it's a yes????</div>
               <div style={{ marginTop: '1.5rem', display: 'flex', gap: '1.5rem', justifyContent: 'center' }}>
                 <button
-                  style={{ padding: '0.8rem 1.6rem', background: '#d7263d', color: 'white', border: 'none', borderRadius: '1rem' }}
+                  style={{ height: '44px', padding: '0 18px', background: '#d7263d', color: 'white', border: 'none', borderRadius: '10px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', lineHeight: '1' }}
                   onClick={() => setBegState('final')}
                 >
                   Yes
                 </button>
                 <button
-                  style={{ padding: '0.8rem 1.6rem', background: '#1b1b1b', color: 'white', border: 'none', borderRadius: '1rem' }}
+                  style={{ height: '44px', padding: '0 18px', background: '#1b1b1b', color: 'white', border: 'none', borderRadius: '10px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', lineHeight: '1' }}
                   onClick={() => setBegState('initial')}
                 >
                   No
@@ -191,7 +211,7 @@ function App() {
 
           {begState === 'final' && (
             <div style={{ marginTop: '2rem', color: '#d7263d', fontSize: '1.8rem' }}>
-              Fine fine... you don't deserve my love (You Fat Pig!)
+              Fine fine... you don't deserve my love (just kidding!) ❤️
             </div>
           )}
         </div>
