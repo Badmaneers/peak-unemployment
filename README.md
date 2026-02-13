@@ -104,7 +104,7 @@ Contains the core application logic:
 Reusable page components:
 - **ThankyouPage** - Initial thank you with celebration audio
 - **DatePage** - Date selection form
-- **FoodPage** - 8 food items with circular images (burgers, hotdog, korean, pasta, pizza, salad, steak, sushi)
+- **FoodPage** - 8 food items with circular images (burgers, hotdog, Momos, pasta, pizza, salad, steak, sushi)
 - **DessertPage** - 6 dessert items (boba, churro, che, mochi, random bun, taiyaki)
 - **ActivitiesPage** - 6 activities (aquarium, arcade, cinema, ceramics, exhibition, park)
 - **LastPage** - Thank you message with animated flowers (3 flowers with falling petals)

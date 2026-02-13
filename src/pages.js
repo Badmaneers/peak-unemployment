@@ -77,14 +77,14 @@ export function DatePage({ onContinue }) {
 // FoodPage
 export function FoodPage({ onContinue }) {
   const foods = [
-    { name: 'burgers and fried chicken', image: 'burgers.jpeg' },
-    { name: 'hotdog', image: 'dog.jpeg' },
-    { name: 'korean food', image: 'koreanfood.jpeg' },
-    { name: 'pasta', image: 'pasta.jpeg' },
-    { name: 'pizza', image: 'pizza.jpeg' },
-    { name: 'salad', image: 'salad.jpeg' },
-    { name: 'steak', image: 'steak.jpeg' },
-    { name: 'sushi', image: 'sushi.jpeg' },
+    { name: 'Burgers and Fried Chicken', image: 'burgers.jpeg' },
+    { name: 'Hotdog', image: 'dog.jpeg' },
+    { name: 'Momos', image: 'momos.jpeg' },
+    { name: 'Pasta', image: 'pasta.jpeg' },
+    { name: 'Pizza', image: 'pizza.jpeg' },
+    { name: 'Salad', image: 'salad.jpeg' },
+    { name: 'Steak', image: 'steak.jpeg' },
+    { name: 'Sushi', image: 'sushi.jpeg' },
   ];
   const [selected, setSelected] = useState([]);
 
