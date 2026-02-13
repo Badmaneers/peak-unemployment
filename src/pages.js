@@ -138,12 +138,12 @@ export function FoodPage({ onContinue }) {
 // DessertPage
 export function DessertPage({ onContinue }) {
   const desserts = [
-    { name: 'boba', image: 'boba.jpeg' },
-    { name: 'churro', image: 'churro.jpeg' },
-    { name: 'che', image: 'che.jpeg' },
-    { name: 'mochi', image: 'mochi.jpeg' },
-    { name: 'random bun', image: 'randombun.jpeg' },
-    { name: 'taiyaki', image: 'taiyaki.jpeg' },
+    { name: 'Boba', image: 'boba.jpeg' },
+    { name: 'Churro', image: 'churro.jpeg' },
+    { name: 'Che', image: 'che.jpeg' },
+    { name: 'Mochi', image: 'mochi.jpeg' },
+    { name: 'Random Bun', image: 'randombun.jpeg' },
+    { name: 'Taiyaki', image: 'taiyaki.jpeg' },
   ];
   const [selected, setSelected] = useState([]);
 
@@ -197,12 +197,12 @@ export function DessertPage({ onContinue }) {
 // ActivitiesPage
 export function ActivitiesPage({ onContinue }) {
   const activities = [
-    { name: 'aquarium', image: 'aquarium.jpeg' },
-    { name: 'arcade', image: 'arcade.jpeg' },
-    { name: 'cinema', image: 'cinema.jpeg' },
-    { name: 'ceramics', image: 'keramika.jpeg' },
-    { name: 'exhibition', image: 'kunsthalle.jpeg' },
-    { name: 'park', image: 'park.jpeg' },
+    { name: 'Aquarium', image: 'aquarium.jpeg' },
+    { name: 'Arcade', image: 'arcade.jpeg' },
+    { name: 'Cinema', image: 'cinema.jpeg' },
+    { name: 'Ceramics', image: 'keramika.jpeg' },
+    { name: 'Exhibition', image: 'kunsthalle.jpeg' },
+    { name: 'Park', image: 'park.jpeg' },
   ];
   const [selected, setSelected] = useState([]);
 
@@ -582,7 +582,7 @@ export function LastPage() {
         }
       `}</style>
       
-      <div id="thankyou"><b>Thank you for being my girlfriend</b></div>
+      <div id="thankyou"><b>Thank you for being my Girlfriend</b></div>
       
       <div className="flower">
         <div className="f-wrapper">
