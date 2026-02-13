@@ -41,9 +41,6 @@ export function DatePage({ onContinue }) {
 
   return (
     <div style={{ textAlign: 'center', minHeight: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', background: '#ffe4e1', padding: '2rem' }}>
-      <audio autoPlay loop style={{ display: 'none' }}>
-        <source src="/congratulations.mp3" type="audio/mpeg" />
-      </audio>
       <img src="/images/when.gif" alt="when" style={{ height: '250px', marginBottom: '1rem' }} />
       <h1 style={{ color: '#d7263d', marginBottom: '2rem' }}>Are you free on ...</h1>
       <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>

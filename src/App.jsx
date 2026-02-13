@@ -76,10 +76,10 @@ function App() {
             <img src="/images/please.png" alt="please" style={{ height: '200px', marginBottom: '1rem' }} />
           )}
           {questionStep === 1 && !answered && (
-            <img src="/images/are-you-sure%3F.gif" alt="are you sure" style={{ height: '250px', marginBottom: '1rem' }} />
+            <img src="/images/are-you-sure.gif" alt="are you sure" style={{ height: '250px', marginBottom: '1rem' }} />
           )}
           {questionStep === 2 && !answered && (
-            <img src="/images/fr%3F.gif" alt="fr" style={{ height: '250px', marginBottom: '1rem' }} />
+            <img src="/images/fr.gif" alt="fr" style={{ height: '250px', marginBottom: '1rem' }} />
           )}
           {questionStep === 3 && !answered && (
             <img src="/images/sus-umm.gif" alt="sus umm" style={{ height: '250px', marginBottom: '1rem' }} />
